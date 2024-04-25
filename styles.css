@@ -160,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .app__footer {
     display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 2.8rem 6rem;
     justify-content: center;

@@ -124,9 +124,4 @@ function showTime(){
     displayTime.innerHTML = `${minutos}:${segundos}`;
 
 }
-
-
-
-
-
 showTime();
