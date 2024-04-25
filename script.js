@@ -16,9 +16,9 @@ const duracaoDescansoCurto = 300;
 const duracaoDescansoLongo = 900; 
 
 const musica = new Audio('sons/luna-rise-part-one.mp3');
-const somPlay = new Audio('/sons/play.wav');
-const somPause = new Audio('/sons/pause.mp3');
-const somTimeUp = new Audio('/sons/beep.mp3');
+const somPlay = new Audio('sons/play.wav');
+const somPause = new Audio('sons/pause.mp3');
+const somTimeUp = new Audio('sons/beep.mp3');
 
 let tempoDecorrido = 1500;
 let intervaloId = null;
@@ -57,7 +57,7 @@ function alterarContexto(contexto) {
         contexto.classList.remove('active')
     })
     html.setAttribute('data-contexto', contexto)
-    banner.setAttribute('src', `/imagens/${contexto}.png`)
+    banner.setAttribute('src', `imagens/${contexto}.png`)
     switch (contexto) {
         case 'foco':
             titulo.innerHTML = `
